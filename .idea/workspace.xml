@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2b65103-beb7-4f55-8f64-e54ab1132a8b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Python4ML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X1M6bGhG54Ggp7RNUDgRu0VCov" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/datatype" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/datatype" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/basics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ScikitLearn">
+    <configuration name="ExceptionHandling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python4ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/logic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/logic/ExceptionHandling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ScikitLearn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python4ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ml/ScikitLearn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python4ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/oops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/oops/functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python4ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/oops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/oops/inheritance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scope" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python4ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/oops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/oops/scope.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ScikitLearn" />
+        <item itemvalue="Python.ExceptionHandling" />
+        <item itemvalue="Python.functions" />
+        <item itemvalue="Python.scope" />
+        <item itemvalue="Python.inheritance" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2b65103-beb7-4f55-8f64-e54ab1132a8b" name="Default Changelist" comment="" />
+      <created>1580208972064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580208972064</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="46" width="1092" height="900" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580913083241">
+      <screen x="67" y="34" width="1853" height="1046" />
+    </state>
+    <state x="432" y="46" width="1092" height="900" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1580913083241" />
+    <state x="2490" y="319" width="743" height="425" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580903551251">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2490" y="319" key="#com.intellij.fileTypes.FileTypeChooser/67.34.1853.1046/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580903551251" />
+    <state x="617" y="343" width="743" height="425" key="#com.intellij.fileTypes.FileTypeChooser/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1580216388213" />
+    <state width="1825" height="243" key="GridCell.Tab.0.bottom" timestamp="1580918488877">
+      <screen x="67" y="34" width="1853" height="1046" />
+    </state>
+    <state width="1892" height="295" key="GridCell.Tab.0.bottom/67.34.1853.1046/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580910485930" />
+    <state width="1825" height="243" key="GridCell.Tab.0.bottom/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1580918488877" />
+    <state width="1825" height="243" key="GridCell.Tab.0.center" timestamp="1580918488877">
+      <screen x="67" y="34" width="1853" height="1046" />
+    </state>
+    <state width="1892" height="295" key="GridCell.Tab.0.center/67.34.1853.1046/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580910485930" />
+    <state width="1825" height="243" key="GridCell.Tab.0.center/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1580918488877" />
+    <state width="1825" height="243" key="GridCell.Tab.0.left" timestamp="1580918488877">
+      <screen x="67" y="34" width="1853" height="1046" />
+    </state>
+    <state width="1892" height="295" key="GridCell.Tab.0.left/67.34.1853.1046/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580910485930" />
+    <state width="1825" height="243" key="GridCell.Tab.0.left/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1580918488877" />
+    <state width="1825" height="243" key="GridCell.Tab.0.right" timestamp="1580918488877">
+      <screen x="67" y="34" width="1853" height="1046" />
+    </state>
+    <state width="1892" height="295" key="GridCell.Tab.0.right/67.34.1853.1046/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580910485930" />
+    <state width="1825" height="243" key="GridCell.Tab.0.right/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1580918488877" />
+    <state x="308" y="59" key="SettingsEditor" timestamp="1580916426295">
+      <screen x="67" y="34" width="1853" height="1046" />
+    </state>
+    <state x="308" y="59" key="SettingsEditor/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1580916426295" />
+    <state x="573" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580996623984">
+      <screen x="67" y="34" width="1853" height="1046" />
+    </state>
+    <state x="573" y="345" key="com.intellij.ide.util.TipDialog/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1580996623984" />
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1580311799625">
+      <screen x="67" y="34" width="1853" height="1046" />
+    </state>
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1580311799625" />
+  </component>
+</project>
