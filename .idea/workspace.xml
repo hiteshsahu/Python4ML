@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b65103-beb7-4f55-8f64-e54ab1132a8b" name="Default Changelist" comment="" />
+    <list default="true" id="c2b65103-beb7-4f55-8f64-e54ab1132a8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Lecture1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ml/Basics.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ml/Basics.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,23 +22,33 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X1M6bGhG54Ggp7RNUDgRu0VCov" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/datatype" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/doc/assets" />
+      <recent name="$PROJECT_DIR$/src/basics" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/datatype" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/basics" />
     </key>
   </component>
   <component name="RunManager" selected="Python.ScikitLearn">
@@ -165,6 +180,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="432" y="46" width="1092" height="900" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580913083241">
       <screen x="67" y="34" width="1853" height="1046" />
@@ -203,9 +221,9 @@
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
     <state x="573" y="345" key="com.intellij.ide.util.TipDialog/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1580996623984" />
-    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1580311799625">
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1581073383056">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1580311799625" />
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.34.1853.1046/1920.0.1920.1080@67.34.1853.1046" timestamp="1581073383056" />
   </component>
 </project>

@@ -1,6 +1,11 @@
-## ML Types
+## Linear Regression
 
-[SLIDED 📑](https://d3c33hcgiwev3.cloudfront.net/_974fa7509d583eabb592839f9716fe25_Lecture1.pdf?Expires=1581120000&Signature=hVUnVKn7gh3xSqQeduUD8IiimmsUWXaCNTVXo91bp5Zy8I9LKVieNMAGmg8S6-LZiwfc7PxatxVEPjXQlG3UMNzye7iLiIr3370ClIPeQYrCJQLJ6OU-wbVrEcT0njE~iUKQpZbN6QjlJRAH6yIAqaM6yEiXnl602kRrdfEq1wc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+#####SLIDES
+- [Introduction 📑](../../assets/doc/Lecture1.pdf)
+- [Linear Regression with Gradient Descent📑](../../assets/doc/Lecture2.pdf)
+- [Matrix & Vector 📑](../../assets/doc/Lecture3.pdf)
+
+## ML Types
 
 #### Supervised learning
   - Test Data have lables
@@ -17,7 +22,7 @@ we are trying to map input variables into discrete categories eg true false.
  - Automatically find Cluster, group & Pattern in input data
  
   **Clustering Algorithm:** Group customer in market segment, group friends in FB, group news.
-  **Cocktail Party Algorithm:** Seperation of voice from music
+  **Cocktail Party Algorithm:** Separation of voice from music.
   
   ------------------
   
@@ -56,13 +61,13 @@ Linear regression is method of finding a Continues Liner relationship between Y 
                             =  1/2number of dataSet(Sum of Deviation from actual)**Squared to remove negative
             
   
-  ![CostFunction](../../doc/assets/Goal.png)
+  ![CostFunction](../../assets/img/Goal.png)
 
                      
 - Plot of  J(Theta0, Theta1) vs Theta1 is Parabola
 - Plot of  J(Theta0, Theta1) vs Theta0,Theta1 is 3D Parabola    
 
-   ![surfaceplot](../../doc/assets/surfaceplot.png)
+   ![surfaceplot](../../assets/img/surfaceplot.png)
 
 ### Contour Figure/ Plot 2D Plot of 3D  surface    
 
@@ -71,7 +76,7 @@ Contour plot is seeing surface plot passing through a horizontal 2D clip plane
 - X axis in Contour Figure = Theta0 =  Y Intercept of Hypothesis in X,Y Plot
 - Y axis in Contour Figure =  Slope =  Slope of Hypothesis Line  in X,Y Plot   
                             
-  ![contourPlot](../../doc/assets/contour.png)
+  ![contourPlot](../../assets/img/contour.png)
                    
 -----
 
@@ -81,12 +86,12 @@ Contour plot is seeing surface plot passing through a horizontal 2D clip plane
 - Look around and find local minima and keep on going down repeat till find optimal solution.
 - **Multiple minima  can be found**
 
- ![gradientDescent](../../doc/assets/gradient.png)
+ ![gradientDescent](../../assets/img/gradient.png)
  
 **Steps:** 
  - For feature index j=0,1, repeat until convergence
  
-   ![descentFormula](../../doc/assets/descentFormula.png)
+   ![descentFormula](../../assets/img/descentFormula.png)
  - Simultaneous compute Theta(0), Theta (1) and store in temp values
  - Simultaneous Update  Theta(0), Theta (1)
  
@@ -103,10 +108,104 @@ Alpha defines rate of Learning
  - Low Alpha: slow learning rate
  - Big Alpha: big steps can diverge from minima
        
-![descentFormula](../../doc/assets/alpha.png)
+![descentFormula](../../assets/img/alpha.png)
 
-Derivative term converge Theta towards its local minima. Derivative automatically takes small step when it starts to converge towards local minimal. Having a fixed alpha helps      
+Derivative terms defines rate of change of Cost function wrt Theta(1). 
+
+- At local minima Derivative Term is = 0.
+-  Derivative term automatically converge Theta1 towards its local minima from both +ve and -ve slopes:
+
+   ![descentFormula](../../assets/img/Derivative.png)
+
+-  Derivative term automatically takes small step when it starts to converge towards local minimal. Having a fixed alpha helps      
        
-![descentFormula](../../doc/assets/Derivative.png)
-        
+ ------      
+
+
+Matrix: 
+- Dimension of matrix = row X column
+- Aij = i'th row j'th column, index starts with 1
+- Represented by Capital Case
+
+
+Vector
+- Matrix of nX1 Dimension(n Dimension Vector)
+- Single RowX Multiple Column 
+- vi = i'th element
+- Represented by Capital Case
+
+### Oprations
+
+#### Addition, Subtraction
+
+- Their dimensions must be the same.
+- Add or subtract each corresponding element in Matrices
+
+#### Multiply, Divide by Scalar
+- Multiply or divide each element by the scalar value.
+
+#### Matrix-Vector Multiplication
+
+> (M x N Matrix)*( N X 1 Vector )= M dimentional Vector
+
+**Usage:**
+
+Faster single Hypothesis Prediction calculation given data set and Thetas
+**Much faster than nested for loops
+
+> #### Data Matrix * Parameter Vector = Prediction Vector 
+
+    h(x) = Theta0 + Theta1x
+    [1 , x]*[Theta Vector] = [h(x)]
+
+
+  ![descentFormula](../../assets/img/vectMatrix.png)
+
+#### Matrix-Matrix Multiplication
+
+> (M x N Matrix)*( N X O Matrix )= M*O Matrix
+
+**Usage:**
+
+Faster multiple Hypothesis Prediction calculation given data set and Thetas
+**Much much faster than nested for loops
+
+> #### Data Matrix * Parameter Matrix = Prediction Matrix 
+
+
+      given h(x) = Theta0 + Theta1x
+      [1 , x]*[Theta Matrix] = [h(x)]
+
+
+  ![descentFormula](../../assets/img/MatMatPredict.png)
+  
+  - Not Commutative : A.B !=B.A
+  - Associative : (A.B).C = A.(B.C)
+  
+  
+#### Identity Matrix:
+  I is called identity matrix of A if:
+  
+  - A.I = I.A = A
+  - All elements are 0, except diagonals elements are 1.
+  
+  #### Inverse Matrix(A<sup>-1</sup>)
+  
+  A' called inverse if
+  
+  - A'.A = A'.A = I
+  
+  Matrix without Inverse called **Degenerate Matrix**
+
+  ####  Matrix Transpose(A<sup>T</sup>)
+  
+For A(mxn) matrix , B = A<sup>T</sup> if Row become Column:
+
+ >- B is mxn matrix
+ > - B<sub>ij</sub> = A<sub>ij</sub> 
+  
+
+---
+
+
 
