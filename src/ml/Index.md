@@ -1,8 +1,6 @@
 > #### AI is the field of study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals
 
-
 ##### ML is the study of computer algorithms that improve automatically through experience.
-
 
 Older definition 
 >  ####"the field of study that gives computers the ability to learn without being explicitly programmed." 
@@ -22,6 +20,11 @@ T = the task of playing checkers.
 P = the probability that the program will win the next game.
 
 ------------
+
+## Learning Progress
+
+- [Week1: Linear Regression & Matrix](./Basics.md)
+
 
 ## Useful Libs
 
