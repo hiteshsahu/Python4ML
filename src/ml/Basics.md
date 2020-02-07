@@ -1,6 +1,6 @@
 ## Linear Regression
 
-#####SLIDES
+##### SLIDES
 - [Introduction 📑](../../assets/doc/Lecture1.pdf)
 - [Linear Regression with Gradient Descent📑](../../assets/doc/Lecture2.pdf)
 - [Matrix & Vector 📑](../../assets/doc/Lecture3.pdf)
