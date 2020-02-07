@@ -3,12 +3,12 @@
 ##### ML is the study of computer algorithms that improve automatically through experience.
 
 Older definition 
->  ####"the field of study that gives computers the ability to learn without being explicitly programmed." 
+> "The field of study that gives computers the ability to learn without being explicitly programmed." 
 >-Arthur Samuel
 
 Modern definition: 
  
->  ####"A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E."
+>  "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E."
 > Tom Mitchell
 
 Example: playing checkers.
@@ -21,12 +21,14 @@ P = the probability that the program will win the next game.
 
 ------------
 
-## Learning Progress
+## Index of Contents
 
 - [Week1: Linear Regression & Matrix](./Basics.md)
 
 
-## Useful Libs
+----
+
+## Tools 
 
     python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 
