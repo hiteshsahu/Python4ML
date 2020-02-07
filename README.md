@@ -5,6 +5,6 @@ Machine Learning with Python
 
 ## Learning Progress
 
--  [Python Hard Way🐍🐍🐍](./src/python/Index.md)
+-  [Python Hard Way🐍](./src/python/Index.md)
 -  [Machine Learning 🤖](./src/ml/Index.md)
    - [Week1: Linear Regression & Matrix📈](./Basics.md)
