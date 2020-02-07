@@ -1,6 +1,6 @@
-### Learning Python hard way
+## Learning Python hard way
 
- [Comment](./begin/HelloWorld.py) :
+ ### [Comment](./begin/HelloWorld.py) :
 
         # This is an example of single line comment
         """
