@@ -1,5 +1,6 @@
-# Python4ML
-Machine Learning with Python
+## Python4ML
+ 
+### [Machine Learning with Python🐍](https://github.com/hiteshsahu/Python4ML)
 
   ![CostFunction](./assets/img/intro.gif)
 

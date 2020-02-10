@@ -26,7 +26,7 @@ P = the probability that the program will win the next game.
 
 ## Index of Contents
 
-- [Week1: Linear Regression & Matrix](./Basics.md)
+- [Week1: Linear Regression & Matrix](LinearRegression.md)
 
 
 ----
