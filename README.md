@@ -7,5 +7,8 @@
 ## Learning Progress
 
 -  [Python Hard Way🐍](./src/python/Index.md)
+-  [ML Tools](./Tools.md)
 -  [Machine Learning 🤖](./src/ml/Index.md)
-   - [Week1: Linear Regression & Matrix📈](./Basics.md)
+   - [Week1: Linear Regression & Matrix📈](./src/ml/LinearRegression.md)
+   - [Week2: Multi Varient Linear Regression & MathWorks📈](./src/ml/LinearRegression.md)
+
