@@ -33,7 +33,20 @@ P = the probability that the program will win the next game.
 
 ## Tools 
 
+### Scipy Kit [NumPy Guide](https://docs.scipy.org/doc/numpy/user/quickstart.html)
+
     python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+    
+### Octave: [Octave Guid](https://octave.org/doc/interpreter/)
+
+    sudo apt-get update && sudo apt-get install octave
+    
+Use this link to install Octave for windows: http://wiki.octave.org/Octave_for_Microsoft_Windows
+
+
+### MatLab MathWorks [MathWorks Guid](https://in.mathworks.com/help/matlab/getting-started-with-matlab.html)
+
+https://matlab.mathworks.com
 
 #### Basic: 
 - **numpy**:  numerical computation. Defines the numerical array & matrix types and basic operations on them.
