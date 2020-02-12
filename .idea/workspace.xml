@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2b65103-beb7-4f55-8f64-e54ab1132a8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tools.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Matlab_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matlab/MathLab.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/certificate/MatLab.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/plotfft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matlab/Operators.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ml/Index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ml/Index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matlab/MathLab.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/matlab/MathLab.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ml/MultiVarientLinearRegression.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ml/MultiVarientLinearRegression.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ml/mathworks/machine-learning-ex.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/matlab/mathworks/machine-learning-ex.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +41,20 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/datatype" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/matlab" />
+      <recent name="$PROJECT_DIR$/assets/certificate" />
+      <recent name="$PROJECT_DIR$/assets/doc" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/doc/assets" />
-      <recent name="$PROJECT_DIR$/src/basics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/src/datatype" />
     </key>
   </component>
   <component name="RunManager" selected="Python.ScikitLearn">
@@ -171,6 +172,18 @@
         <item itemvalue="Python.inheritance" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
