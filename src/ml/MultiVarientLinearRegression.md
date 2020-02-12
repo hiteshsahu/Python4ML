@@ -8,7 +8,7 @@
 <img src = ../../assets/img/Matlab_Logo.png" width="50">
 
 - [Certificate MatLab 📑](../../assets/certificate/MatLab.pdf)
-- [Study Notes MatLab 📑](../../assets/certificate/MatLab.pdf)
+- [Study Notes MatLab 📑](../matlab/MathLab.md)
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=ROonhizDeFQ"><img 
