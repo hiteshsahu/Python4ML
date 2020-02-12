@@ -5,8 +5,8 @@
 
 > MatLab is the Language of Mathematical Computation
 
-<img src = ../../assets/img/Matlab_Logo.png" width="50">
-
+<img src = "../../assets/img/Matlab_Logo.png" width="100">
+                                                       
 - [Certificate MatLab 📑](../../assets/certificate/MatLab.pdf)
 - [Study Notes MatLab 📑](../matlab/MathLab.md)
 
