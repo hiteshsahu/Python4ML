@@ -89,7 +89,7 @@ Contour plot is seeing surface plot passing through a horizontal 2D clip plane
  ![gradientDescent](../../assets/img/gradient.png)
  
 **Steps:** 
- - For feature index j=0,1, repeat until convergence
+ - For feature index j= 0,1, repeat until convergence
  
    ![descentFormula](../../assets/img/descentFormula.png)
  - Simultaneous compute Theta(0), Theta (1) and store in temp values
@@ -112,7 +112,7 @@ Alpha defines rate of Learning
 
 Derivative terms defines rate of change of Cost function wrt Theta(1). 
 
-- At local minima Derivative Term is = 0.
+-  At local minima Derivative Term is = 0.
 -  Derivative term automatically converge Theta1 towards its local minima from both +ve and -ve slopes:
 
    ![descentFormula](../../assets/img/Derivative.png)
