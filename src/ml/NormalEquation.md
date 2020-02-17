@@ -1,6 +1,6 @@
 ##  Normal Equation
 
-> ####Instead of solving multiple iteration of gradient descent, Normal equation can get theta in one step 
+> #### Instead of solving multiple iteration of gradient descent, Normal equation can get theta in one step 
 
 
 Θ can be calculated where cost function is minimal using calculas in one step instead of iterating
@@ -43,7 +43,7 @@
 - __More feature than training set(m<=n)):__ delete some feature or use regularization
 
 
-#####Octave method for inverting matrix:
+##### Octave method for inverting matrix:
 
  - __pinv(A)__ : **Pseudo Inverse**, calculates inverse even if matrix is non invertible
  - __inv(A)__  : Inverse
