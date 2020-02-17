@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2b65103-beb7-4f55-8f64-e54ab1132a8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/Descent_MVLR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/cost_fn_MultLR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/creatingFeature.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/featureScaling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/learningRate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/meanScale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/polynomial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/certificate/index.md.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/doc/Lecture4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/addToPath.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/matrixPlotColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/normalEquation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/plotMatrixGrey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/vectorization.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ml/NormalEquation.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matlab/MathLab.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/matlab/MathLab.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ml/LinearRegression.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ml/LinearRegression.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ml/MultiVarientLinearRegression.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/ml/MultiVarientLinearRegression.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -4,6 +4,8 @@
 - [Introduction 📑](../../assets/doc/Lecture1.pdf)
 - [Linear Regression with Gradient Descent📑](../../assets/doc/Lecture2.pdf)
 - [Matrix & Vector 📑](../../assets/doc/Lecture3.pdf)
+- [Multi Variant Linear Regression and Normal Equations📑](../../assets/doc/Lecture4.pdf)
+
 
 ## ML Types
 
@@ -193,9 +195,10 @@ Faster multiple Hypothesis Prediction calculation given data set and Thetas
   
   A' called inverse if
   
-  - A'.A = A'.A = I
-  
-  Matrix without Inverse called **Degenerate Matrix**
+      A'.A = A'.A = I
+ 
+ >  - ##### Matrix inverse is useful for Normal Equation 
+ >  - ##### Matrix without Inverse called **Degenerate Matrix/ Singular/ Non Invertible**
 
   ####  Matrix Transpose(A<sup>T</sup>)
   

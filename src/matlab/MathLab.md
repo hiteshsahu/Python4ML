@@ -4,8 +4,19 @@
 
 Finding Help
 
-> doc fn = document for function n
+> doc fn = document for function 
 >
+> %To add comment
+
+
+-  pwd :to get current directory
+-  cd  : change directory
+-  ls  : list directory
+-  who :  view variable in current scope
+- whos : Detailed view of variable sin scope 
+-  clear: clear variables in current workspace
+
+
 ### [Operators📈 Overview](./Operators.md)
 
 <div align="center">
@@ -69,9 +80,14 @@ Save all Variables in MAT File
 
 Save Single variable in MAT file
 > save \<filename>.mat \<variableName>
+
+Save all Variables in Readable File format
+> save \<filename>.txt -ascii
  
 Load Saved Variables
->load \<filename>.mat    
+>load \<filename>.mat   
+>load \<filename>.dat    
+ 
  
 Load Single Saved Variables
 >load \<filename>.mat \<variableName>
@@ -83,17 +99,21 @@ Load Single Saved Variables
 ### Creating Arrays & Matrix
 
 
+       magic(n,m)  sum of rows, column , diagonal is same
+
+
         x = [7 9]      // row array or row vector [element  element]
         x= x'          // Transpose into column vector
-        
+       ( A')'==A        // Double transpose is same
+      
         x = start:end          // Shortcut create Row Vector [1,2,3,4]
         x=  start: step: step    // shortcut create Row Vector 1 to 5 step 0.5 [1,1.5,2,2.5, 3,3.5,4,4.5 5]
         x= (start: step: step)' // shortcut create Column Vector 1 to 5 step 0.5 
     
         x = linspace(start ,end ,space)   // equidistance  rowvector 
         x = linspace(start ,end ,space)'  //  equidistance columnn vector
-    
-
+        
+      
 - , Rows
 - ; Column
 
@@ -103,7 +123,16 @@ Load Single Saved Variables
         
         x = rand(n)    // Generate  nxn matrix with random number
         x = rand(n,m)  // Generate  nxm matrix with random number
+        
         x = zeros(n,m) // Generate  nXm matrix with zero elements
+        x = ones(n,m) // Generate nxm unit matrix   
+        
+        x= eye(n,m) // GenerateIdentity Matrix
+        x= eye(n)   // Generate nxn Identity Matrix
+
+Tricks   
+        
+        A.*eye(n) = diagonal matrix of A
         
 ##   Reading 
 
@@ -113,6 +142,8 @@ Load Single Saved Variables
          size(A)                // size of matrix
          [dr, dc] = size(A)     // Size in dr,dc
          [vMax, ivMax]= max(A)   // Max Value and its Index
+         
+         A(:)   // convert Matrix into single column Vector
         
          A(i)     // ith element of Vector
          A(n:m)   // All elements from n to m index of Vector
@@ -122,6 +153,23 @@ Load Single Saved Variables
          A(n, :)  // Get all elements of nth Row
          A(:, n)   // Get all elements of nth Column
          A(:, end-1:end) // all elements of last 2 column
+         A([a,b], :) // all elements of a, b rows
+
+Trick
+
+         [vMax, ivMax]= max(A)   // Max Value and its Index
+         max(A,[],1)  // return max per column
+         max(A,[],2)  // return max per row
+
+         max(A(:))  // max eleemnt in A
+         
+         sum(A,1)  // per column sum
+         sum(A,1)  // per row sum
+         
+         
+         A.*eye(n)  = diagonal matrix of A
+         
+         sum(sum(A.*eye(n))) = sum of all diagonal elements of A
          
 
 ## Update
@@ -129,16 +177,44 @@ Load Single Saved Variables
 
          A(i) = b      // modify A(i)th element  to b
          A(i,j) = b    // modify A(i,j)th element to b 
+         
+         C =[A,B] = [A B]  // concate B after last column of A
+         C =[A;B]          // concate B below last row of A
+
+         A =[A,[a;b;c]]  // append a,b,c  as last column in A
+         
+         
+        
     
 - Operation on Matrix applies on all elements of matrix
 
     
          A + b        // Add Scaler b to all elements of Matrix A
          A / b        // Divide Scaler b to all elements of Matrix A
-         fn(A)        // Math fn on all elements of Matrix A eg sqrt
+           
+         A<3        // element wise compare and return binary Matrix
+         [r,c] = find(A<3) // return row and column index matrix(r & c) satisfying
          
           A + B        // Add A+ B
           A.*B         // Multiply A.*B
+     
+Functions
+     
+         fn(A)        // Math fn on all elements of Matrix A eg sqrt, abs, log
+         
+         sum(A)    //  Add up all elemnts
+         prod(A)    // Return product of all elements
+         
+         floor(A)  // floor (0,5-> 0)
+         ceil(A)   // round (0,5->1)
+         
+Inverse
+
+         pinv(A)     //Inverse of Matrix
+         pinv(A)*A  // Identity Matrix of A
+         
+         
+       
           
 ## [Plot](https://in.mathworks.com/products/matlab/plot-gallery.html)
 
@@ -186,8 +262,17 @@ Load Single Saved Variables
 
         plot(x,y)
         plot(x,y, "r  *") // plot red * no line
+        
         hold on      // plot on same Axis as before
         hold off     // plot on different axis
+        
+        clf       // clear figure
+        close     // close figure
+        
+        figure(1): plot(x,y) // save a figure 
+        
+        subplot(n,m,o) // divide plot in nXm grid and access o element
+        subplot(1,2,1) // divide plot in 1*2 grid and draw in first subplot
         
         plot(Vector)  // auto plot Vector on Y axis
         plot(x,y,"red--o", "LineWidth", 4)
@@ -196,11 +281,30 @@ Load Single Saved Variables
 #### Limit
         xlim([n,n])   // limit x range between n & m
         ylim([n,m])   // limit y range between n & m
+        
+#### Plot Matrix:
+  
+  Color Plot
+     
+     A = magic(5)
+     imagesc(A)   
+
+
+  ![CostFunction](../../assets/img/matrixPlotColor.png) 
+  
+Grey Scale Plot
+
+  
+     A = magic(5)
+     imagesc(A), colorbar, colormap grey  
+
+  ![CostFunction](../../assets/img/plotMatrixGrey.png)
 
 
 ####Legend:
 
     title('TITLE OF PLOT')   // Title
+    axis([x1, x2, y,, y2])   // set axis range to x,. x2 & y1y2
     xlabel('X axis Label')   // X Label
     ylabel('Y axis Label')   // Y Label
     legend('plot1','plot2')  // Legend
@@ -219,7 +323,12 @@ Example:
    ![CostFunction](../../assets/img/plotfft.png)
     
     
-      
+ Export Figure:
+ 
+    print -dpng  "<image name>.png"
+    
+    
+    
 ---------------------------
 
 
@@ -319,6 +428,16 @@ Example:
      function [out1, out2, ..] =fnName(param1, param 2...)
        ...body  
       end   
+      
+eg:
+      
+      function y = squareThisNumber(x)
+      y= x^2
+      
+      // Multiple Output
+      function [y1,y2] = squareAndCubeThisNumber(x)
+      y1= x^2
+      y2= x^3
       
   #### Anonymous function 
  - Returns only single output
