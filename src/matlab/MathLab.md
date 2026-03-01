@@ -38,7 +38,7 @@ Integer and floating-point data
 
 -  #### Characters and Strings
 Text in character arrays and string arrays
-- ###Dates and Time
+- ### Dates and Time
 Arrays of date and time values that can be displayed in different formats
 - #### Categorical Arrays
 Arrays of qualitative data with values from a finite set of discrete, nonnumeric data

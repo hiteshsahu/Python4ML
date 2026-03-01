@@ -25,4 +25,14 @@
 - [Normal Equations📈](./src/ml/NormalEquation.md)
 
 
+## References
+[Official Python Documentation](https://docs.python.org/3/tutorial/index.html)
+- Best place to learn Python, but it is not a course, just a documentation. You need to have some basic understanding of programming to understand the documentation.
+
+[Google Crash Course on Python](https://www.coursera.org/learn/python-crash-course/home/module/1)
+- Annoying af course with bright colors and no content, just videos of girls talking about Python. Waste of time.
+
+[Dr Chuck's Python for Everybody](https://www.coursera.org/learn/python/lecture/GoNcs/welcome-to-class-dr-chuck)
+- Best course to learn Python, it is a complete course with assignments and quizzes. It is
+
 
